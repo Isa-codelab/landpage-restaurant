@@ -98,3 +98,18 @@
         text-align: center;
     }
 }
+
+@media (min-width: 450px) and (max-width: 1024px) {
+    #menu .menu-subtitle{
+        text-align: center;
+    }
+    #dishes{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    .dish{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
