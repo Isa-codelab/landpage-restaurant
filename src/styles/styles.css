@@ -11,6 +11,10 @@ body{
     background-color: #fff9ea;
 }
 
+section{
+    padding: 28px 8%;
+}
+
 .btn-default{
     border:none;
     display: flex;
@@ -30,3 +34,30 @@ body{
 .btn-default:hover{
     background-color: #f8d477;
 }
+
+.cta-socials_buttons{  
+    display: flex;
+    gap: 1.1rem;
+}
+
+.cta-socials_buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 40px;
+
+    background-color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.25);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.cta-socials_buttons a:hover{
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
